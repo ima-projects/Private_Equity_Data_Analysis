@@ -54,7 +54,7 @@ Performed data transformations as needed, such as converting floating-point valu
 Utilized the Pearson correlation coefficient to measure the strength and direction of linear relationships between continuous variables. Identified features that exhibit significant correlations, which can offer insights into potential investment opportunities and risks.
 
 ### Data Visualization
-- Created visual representations of the data using scatter plots to observe relationships between variables. Visualized the correlation matrix for numeric features to gain a comprehensive overview of interrelationships. This visual exploration can provide initial insights and highlight potential trends or outliers.
+Created visual representations of the data using scatter plots to observe relationships between variables. Visualized the correlation matrix for numeric features to gain a comprehensive overview of interrelationships. This visual exploration can provide initial insights and highlight potential trends or outliers.
 
 
 ## Quick Analysis of Results
