@@ -45,3 +45,13 @@ My goal is to:
 
 ## Tech Stack
 - Google Colab
+
+## Preliminary Analysis
+### Data Transformation
+Performed data transformations as needed, such as converting floating-point values to integers to ensure consistency and ease of comparison across variables. Unstack the correlation matrix to transform it into a tabular format, enabling easier analysis and interpretation.
+
+### Correlation Analysis 
+Utilized the Pearson correlation coefficient to measure the strength and direction of linear relationships between continuous variables. Identified features that exhibit significant correlations, which can offer insights into potential investment opportunities and risks.
+
+### Data Visualization
+- Created visual representations of the data using scatter plots to observe relationships between variables. Visualized the correlation matrix for numeric features to gain a comprehensive overview of interrelationships. This visual exploration can provide initial insights and highlight potential trends or outliers.
