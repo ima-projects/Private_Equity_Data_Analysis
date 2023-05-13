@@ -48,7 +48,7 @@ My goal is to:
 
 ## Preliminary Analysis
 ### Data Transformation
-Performed data transformations as needed, such as converting floating-point values to integers to ensure consistency and ease of comparison across variables. Unstack the correlation matrix to transform it into a tabular format, enabling easier analysis and interpretation.
+Performed data transformations as needed, such as converting floating-point values to integers to ensure consistency and ease of comparison across variables. Unstacked the correlation matrix to transform it into a tabular format, enabling easier analysis and interpretation.
 
 ### Correlation Analysis 
 Utilized the Pearson correlation coefficient to measure the strength and direction of linear relationships between continuous variables. Identified features that exhibit significant correlations, which can offer insights into potential investment opportunities and risks.
@@ -66,7 +66,16 @@ Utilized the Pearson correlation coefficient to measure the strength and directi
 #### Correlation Matrix for Numeric Features
 ![Scatter Plot](./CorrelationMatrixForNumericFeatures.png)
 ### Limitations and Suggestions
+#### Limitations of Scatter Plots
+- Limited to Two Variables: Scatter plots can only visualize the relationship between two variables at a time. If you have a dataset with multiple variables, you would need to create multiple scatter plots to explore relationships between different pairs of variables.
+- Non-linear Relationships: Scatter plots are most effective at capturing linear relationships between variables. They may not accurately represent non-linear or complex relationships, potentially leading to misleading interpretations.
+- Lack of Contextual Information: Scatter plots typically focus on the relationship between variables but may lack contextual information such as time, categories, or other factors that could influence the relationship. This limitation can limit the depth of analysis.
 
+#### Limitations of Correlation Matrices
+- Limited to Numerical Variables: Correlation matrices are primarily used to analyze the relationship between numerical variables. They may not be applicable or informative for categorical or ordinal variables.
+  * I had assumed by converting the non-numeric objects to numeric data types might help to display a new relationship in the results but the findings did not provide evidence in support of my initial hypothesis.
+- Assumes Linear Relationships: Correlation coefficients, such as the Pearson correlation, assume linear relationships between variables. If the relationship is non-linear or the data distribution is not symmetric, the correlation coefficient may not accurately capture the true relationship.
+- Lack of Causation: Correlation measures the strength and direction of the relationship between variables but does not establish causation. A high correlation does not necessarily imply a causal relationship, as other confounding factors may be at play.
 
 ## Installation: Simplify Your Analysis
 
