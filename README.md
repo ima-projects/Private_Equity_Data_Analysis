@@ -10,7 +10,7 @@
 - [Preliminary Analysis](#preliminary-analysis)
 - [Quick Analysis of Results](#quick-analysis-of-results)
   * [Key Findings](#key-findings)
-  * [Limitations and Suggestions for Optimization of the Dashboard](#limitations-and-suggestions-for-optimization-of-the-dashboard)
+  * [Limitations and Suggestions](#limitations-and-suggestions)
 - [Installation: Simplify Your Analysis](#installation-simplify-your-analysis)
   * [Run Locally in Jupyter Notebook](#run-locally-in-jupyter-notebook)
 
@@ -55,3 +55,19 @@ Utilized the Pearson correlation coefficient to measure the strength and directi
 
 ### Data Visualization
 - Created visual representations of the data using scatter plots to observe relationships between variables. Visualized the correlation matrix for numeric features to gain a comprehensive overview of interrelationships. This visual exploration can provide initial insights and highlight potential trends or outliers.
+
+
+## Quick Analysis of Results
+### Key Findings
+#### Scatter Plot
+![Scatter Plot](./DistributionsvTotalValue.39.png)
+![Correlation Matrix for Numeric Features](./v2.DistributionsvTotalValue.45.png)
+
+#### Correlation Matrix for Numeric Features
+![Scatter Plot](./CorrelationMatrixForNumericFeatures.png)
+### Limitations and Suggestions
+
+
+## Installation: Simplify Your Analysis
+
+### Run Locally in Jupyter Notebook
