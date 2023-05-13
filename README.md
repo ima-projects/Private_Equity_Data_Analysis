@@ -24,10 +24,12 @@
 
 ## Methods
 - Data Exploration
+  * Filtering
 - Correlation Coefficient
   * Pearson Correlation: This method calculates the linear relationship between two continuous variables. It measures the strength and direction of the linear association between the variables, ranging from -1 to 1. 
 - Data Visualization
   * Scatter plots
   * Correlation Matrix for Numeric Features
 - Data Transformation
+  * Converting floats to integers to normalize the data
   * Unstacking the Correlation Matrix containing Numeric Features
