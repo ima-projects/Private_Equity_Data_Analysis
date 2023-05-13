@@ -81,8 +81,48 @@ Utilized the Pearson correlation coefficient to measure the strength and directi
 - Statistical Analysis: I will look to employ a wider range of statistical techniques to explore relationships and patterns in my data. This could include regression analysis, ANOVA (analysis of variance), chi-square tests, time series analysis, clustering algorithms, or predictive modeling. 
 - Feature Engineering: I may look to create new features or variables from existing data to capture additional insights. Transformations, aggregations, or creating derived variables can provide a deeper understanding of the underlying patterns and relationships in your dataset.
 - Data Enrichment: I will look to augment existing dataset with additional relevant data sources to gain a broader perspective. External data, such as economic indicators, demographic information, or industry-specific data, can provide valuable context and enhance the depth of analysis.
-- Advanced Machine Learning Techniques: Consider applying advanced machine learning algorithms to identify complex patterns or make predictions. Techniques such as decision trees, random forests, support vector machines, or neural networks can uncover hidden relationships and generate more accurate predictions.
+- Advanced Machine Learning Techniques: I may consider applying advanced machine learning algorithms to identify complex patterns or make predictions. Techniques such as decision trees, random forests, support vector machines, or neural networks can uncover hidden relationships and generate more accurate predictions.
 
 ## Installation: Simplify Your Analysis
+### Run in Google Colab
+1. Open your web browser and go to the Google Colab homepage at https://colab.research.google.com/.
+2. Click on "File" > "New notebook" to create a new Colab notebook.
+3. In the first cell of the notebook, enter the following code to clone the repository:
+```bash
+!git clone https://github.com/ima-projects/Private_Equity_Data_Analysis.git
+```
+4. Run the code cell by clicking on the "Play" button or by pressing "Shift+Enter".
+5. Once the repository has been cloned, navigate to the cloned repository folder by entering the following code in a new cell to ensure you are in the correct folder:
+```shell
+%cd Private_Equity_Data_Analysis/
+```
+6. Run the code cell by clicking on the "Play" button or by pressing "Shift+Enter".
+7. Import dependencies e.g pandas, numpy, seaborn and matplotlib
+
+8. Run the code cell by clicking on the "Play" button or by pressing "Shift+Enter".
+
+You can now start working with the project in Google Colab. You can open and modify files, run scripts, and execute commands as you would in a local environment.
 
 ### Run Locally in Jupyter Notebook
+1. Open your web browser and go to the Jupyter website at https://jupyter.org/.
+2. Click on "Install" to access the installation instructions for Jupyter notebooks. Follow the instructions for your operating system to install Jupyter on your local machine.
+3. Once Jupyter is installed, open a command prompt or terminal and navigate to the directory where you want to store your notebook files.
+4. Enter the following command to clone the repository:
+```bash
+git clone https://github.com/ima-projects/Private_Equity_Data_Analysis.git
+```
+5. Navigate to the cloned repository folder by entering the following command in the command prompt or terminal to ensure you're in the correct folder:
+```bash
+cd Private_Equity_Data_Analysis/
+```
+6. Import or install dependencies e.g pandas, numpy, seaborn and matplotlib
+
+7. Run the Jupyter notebook server by entering the following command in the command prompt or terminal:
+```
+jupyter notebook
+```
+This will start the Jupyter notebook server and open a web browser window displaying the Jupyter dashboard.
+
+8. Click on the notebook file you want to run to open it in a new tab in the web browser.
+9. In the notebook, you can execute each cell by clicking on it and then clicking on the "Run" button in the toolbar, or by pressing "Shift+Enter".
+10. You can modify the notebook code and execute it as you see fit.
