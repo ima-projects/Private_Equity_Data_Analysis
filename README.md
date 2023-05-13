@@ -15,8 +15,17 @@
   * [Run Locally in Jupyter Notebook](#run-locally-in-jupyter-notebook)
 
 ## Business Problem
+A private equity firm has amassed a substantial dataset. They need to extract valuable insights from it to inform their investment decisions. However, the dataset is vast and complex, making it challenging to identify meaningful patterns and relationships. They require a comprehensive data exploration and analysis approach to uncover valuable information hidden within the dataset.
+
 ### Objective
+The objective of this project is to perform a thorough data exploration and analysis of the private equity dataset to gain a deeper understanding of the investment landscape and to understand how it differs from the current macro-economic climate. By leveraging various techniques such as filtering, correlation coefficient analysis, data visualization, and data transformation, the aim is to extract meaningful insights that can guide our investment strategies.
+
 ### Goal
+My goal is to:
+- Explore data dimensions and variables, applying filtering techniques to identify subsets aligning with investment criteria and uncover hidden patterns and trends.
+- Calculate correlation coefficients using the Pearson method, identifying significant correlations between continuous variables for insights into investment opportunities and risks.
+- Visualize data through scatter plots, revealing feature relationships and detecting patterns or outliers. Create a correlation matrix for numeric features to understand interrelationships.
+- Perform data transformation, normalizing by converting floating-point values to integers for consistent and comparable analysis. Unstack the correlation matrix for a tabular format, facilitating easier interpretation.
 
 ## Data Source
 
@@ -33,3 +42,6 @@
 - Data Transformation
   * Converting floats to integers to normalize the data
   * Unstacking the Correlation Matrix containing Numeric Features
+
+## Tech Stack
+- Google Colab
