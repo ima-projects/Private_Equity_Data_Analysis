@@ -1,6 +1,6 @@
 # Private Equity Data Analysis
 
-Analyzed multi-year private equity data that consistent of exploring data dimensions, identifying subsets aligning with investment criteria, calculating correlation coefficients, visualizing data through scatter plots and correlation matrices, and performing data transformation for easier interpretation.
+Analyzed multi-year private equity data that consisted of exploring data dimensions, identifying subsets aligning with investment criteria, calculating correlation coefficients, visualizing data through scatter plots and correlation matrices, and performing data transformation for easier interpretation.
 
 ## Table of Contents
 - [Business Problem](#business-problem)
